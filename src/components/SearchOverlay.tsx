@@ -119,7 +119,7 @@ export function SearchOverlay({ open, onClose }: { open: boolean; onClose: () =>
           ) : results.length > 0 ? (
             grouped.map((group) => (
               <div key={group.cat} className="mb-2">
-                <p className="px-3 pb-1 pt-2 text-xs font-semibold uppercase tracking-wide text-ink-400">{group.cat}</p>
+                <p className="px-3 pb-1 pt-2 text-xs font-semibold uppercase tracking-wide text-ink-500">{group.cat}</p>
                 {group.items.map((item) => (
                   <a
                     key={item.id}

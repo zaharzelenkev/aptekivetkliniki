@@ -45,7 +45,7 @@ export function Footer() {
           ))}
         </div>
 
-        <div className="mt-12 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs text-ink-500 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-12 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs text-ink-400 sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} Аптечная сеть «Фармакея». Санкт-Петербург, основана в 2003 году.</p>
           <p>Информация на сайте носит справочный характер и не является публичной офертой.</p>
         </div>
