@@ -31,7 +31,7 @@
   --color-ink-800: #1c2636;
   --color-ink-700: #333f52;
   --color-ink-600: #4d5b6e;
-  --color-ink-500: #6b7686;
+  --color-ink-500: #656f7f;
   --color-ink-400: #8b95a3;
   --color-ink-300: #b3bac4;
   --color-ink-200: #d7dce2;
@@ -48,7 +48,7 @@
 
   --color-warning-50: #fff8ec;
   --color-warning-500: #cf8a1c;
-  --color-warning-600: #a86e14;
+  --color-warning-600: #96620f;
 
   --color-error-50: #fdecec;
   --color-error-500: #d1453b;
@@ -93,6 +93,16 @@
     color: var(--color-ink-900);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
+  }
+  /* Long single words («конфиденциальности») used to push headings outside of
+     the viewport on narrow phones — let them wrap instead. */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    overflow-wrap: break-word;
   }
   ::selection {
     background-color: var(--color-primary-200);

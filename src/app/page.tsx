@@ -76,7 +76,7 @@ export default function HomePage() {
                 Ветеринарные клиники
               </Button>
             </div>
-            <dl className="mt-10 grid max-w-md grid-cols-3 gap-4 border-t border-border pt-6">
+            <dl className="mt-10 grid max-w-md grid-cols-2 gap-4 border-t border-border pt-6 min-[360px]:grid-cols-3">
               <div>
                 <dt className="text-xs font-medium uppercase tracking-wide text-ink-500">Работаем с</dt>
                 <dd className="mt-1 text-2xl font-bold text-ink-950">{companyFacts.founded}</dd>

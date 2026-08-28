@@ -53,7 +53,7 @@ export default function ContactsPage() {
                       <a href={telHref(p.raw)} className="font-semibold text-primary-700 hover:underline">
                         {p.display}
                       </a>
-                      {p.note ? <span className="text-ink-400">· {p.note}</span> : null}
+                      {p.note ? <span className="text-ink-600">· {p.note}</span> : null}
                       {p.whatsapp ? (
                         <a href={waHref(p.raw)} target="_blank" rel="noopener noreferrer" className="text-xs font-semibold text-success-600 hover:underline">
                           WhatsApp
